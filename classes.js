@@ -2,6 +2,16 @@
 //writing a product class
 
 class Product{
+    
+    constructor(productName, productPrice, productCategory, productDescription, productRating) {
+        this.name = productName;
+        this.price = productPrice;
+        this.category = productCategory;
+        this.description = productDescription;
+        this.rating = productRating;
+    }
+    
+    
     //data members
     name;
     price;
@@ -24,3 +34,7 @@ class Product{
         console.log('product added to wishlist');
     }
 }
+
+let iphone = new Product("iPhone 12", 80000, "Mobile", "Apple iPhone 12", 4.5);
+
+console.log(iphone);
