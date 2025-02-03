@@ -38,3 +38,14 @@ class Product{
 let iphone = new Product("iPhone 12", 80000, "Mobile", "Apple iPhone 12", 4.5);
 
 console.log(iphone);
+
+
+let obj = {
+    x:10,
+    y:20,
+    fn: function(){
+        console.log(this.x,this.y);
+    }
+}
+
+obj.fn();
