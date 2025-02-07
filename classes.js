@@ -63,7 +63,15 @@ let obj2 = {
     }
 }
 
+let obj3 = {
+    x:10,
+    y:20,
+    fn: function(){
+        console.log(this.x / this.y);
+    }
+}
 obj.fn();
 obj1.fn();
 obj2.fn();
+obj3.fn();
 
