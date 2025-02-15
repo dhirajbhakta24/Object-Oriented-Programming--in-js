@@ -85,7 +85,7 @@ let obj5 = {
     }
 }
 let obj6 = {
-    x:"dhiraj"
+    x:"dhiraj",
     y:"bhakta",
     fn: function(){
         console.log(this.x + this.y);
